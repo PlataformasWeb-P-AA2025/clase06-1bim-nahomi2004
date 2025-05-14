@@ -14,7 +14,7 @@ saludos = session.query(Saludo).all()
 st.title("Presentación de todos los Saludos")
 
 for saludo  in saludos:
-    st.write(saludo)
+    st.write(saludo) # Usa es __str__
     st.markdown("---")
 
 st.markdown("---")
